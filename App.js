@@ -1,5 +1,6 @@
 import 'react-native-gesture-handler';
 import React from 'react';
+import {Root} from 'native-base'
 
 import { NavigationContainer} from '@react-navigation/native';
 import { createStackNavigator} from '@react-navigation/stack'
@@ -12,9 +13,10 @@ import CrearCuenta from './views/CrearCuenta';
 const App = () => {
   return ( 
     <>
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
-        <Stack.Screen
+    <Root>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Login">
+          <Stack.Screen
           name="Login"
           component={Login}
           options={{
@@ -28,7 +30,7 @@ const App = () => {
           options={{
             title: "Crear cuenta",
             headerStyle:{
-              backgroundColor: '#800080'
+              backgroundColor: '#30305a'
             },
             headerTintColor: '#fff',
             headerTitle:{
@@ -39,6 +41,7 @@ const App = () => {
 
       </Stack.Navigator>
     </NavigationContainer>
+    </Root>
     </>
    );
 }

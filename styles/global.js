@@ -17,11 +17,11 @@ const globalStyles = StyleSheet.create({
         fontWeight: 'bold',
     },
     input: {
-        backgroundColor: '#c2c2c2',
+        backgroundColor: '#ffffff',
         marginBottom: 20
     },
     botton: {
-        backgroundColor: '#800080',
+        backgroundColor: '#69699a',
         marginTop: 5
     },
     bottonTexto:{

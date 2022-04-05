@@ -9,9 +9,9 @@ const Login = () => {
     //React Navigation
     const navigation = useNavigation();
     return ( 
-        <Container style={[globalStyles.contenedor, {backgroundColor: '#ffbbff'}]}>
+        <Container style={[globalStyles.contenedor, {backgroundColor: '#d9d7ea'}]}>
             <View style = {globalStyles.contenido}>
-                <H1 style = {globalStyles.titulo}> MyKiu</H1>
+                <H1 style = {globalStyles.titulo}>MyKiu: Iniciar sesión</H1>
 
                 <Form>
                     <Item inlineLabel last style= {globalStyles.input}>
